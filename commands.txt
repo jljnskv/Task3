@@ -1,0 +1,13 @@
+//список использованных команд
+git init //для папки Task3
+git add . //для для файла hello.cpp
+git commit -m 
+git remote add user3 https://github.com/jljnskv/Task3.git 
+git push -u user3 master
+git branch rating //создание ветки rating
+git branch comment //создание ветки comment
+git checkout //для переключения с ветки на ветку
+git merge rating //с ветки мастера
+git merge comment //с ветки мастера
+git commit -a -m "done" //после разрешения конфликта
+git push //выкладываем всё на сервер 
